@@ -30,3 +30,7 @@ One-time purchase, no subscription. You own the file.
 ## License
 
 The sample files in this repo are free to use. The full pack is sold via Gumroad under its purchase terms.
+
+## Live site
+
+The marketing page for the pack lives at https://whitedragonmerchant.github.io/homestead-care/ (GitHub Pages, served from `main`).

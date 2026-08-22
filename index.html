@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homestead Daily Ops Pack — One spreadsheet that holds the daily floor</title>
+<meta name="description" content="Six spreadsheet sheets that run a real homestead: daily floor, watering rotation, feed log, inventory, ledger. One-time $12, no subscription.">
+<meta property="og:title" content="Homestead Daily Ops Pack">
+<meta property="og:description" content="The systems that hold the daily floor on a working homestead. One-time $12, no subscription.">
+<meta property="og:image" content="cover.jpg">
+<style>
+  :root {
+    --paper: #f4efe4;
+    --ink: #2b2620;
+    --leather: #5a3a24;
+    --leather-dark: #3c2616;
+    --accent: #a4632e;
+    --line: #d8cfbc;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 24px; }
+
+  header {
+    background: var(--leather-dark);
+    color: var(--paper);
+    padding: 18px 0;
+  }
+  header .wrap { display: flex; justify-content: space-between; align-items: center; }
+  .brand { font-size: 15px; letter-spacing: 2px; text-transform: uppercase; }
+  .brand span { color: #c9a06a; }
+  nav a { color: var(--paper); text-decoration: none; font-size: 14px; margin-left: 18px; }
+  nav a:hover { color: #c9a06a; }
+
+  .hero { padding: 56px 0 40px; text-align: center; }
+  .hero h1 { font-size: 38px; line-height: 1.2; margin-bottom: 14px; }
+  .hero h1 em { color: var(--accent); font-style: italic; }
+  .hero p.lede { font-size: 19px; max-width: 620px; margin: 0 auto 26px; color: #4d463c; }
+  .cta {
+    display: inline-block;
+    background: var(--accent);
+    color: #fff;
+    padding: 14px 34px;
+    font-size: 17px;
+    text-decoration: none;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+  }
+  .cta:hover { background: var(--leather); }
+  .price-note { margin-top: 10px; font-size: 14px; color: #6b6154; }
+
+  .hero img {
+    width: 100%;
+    max-width: 720px;
+    border-radius: 6px;
+    margin-top: 36px;
+    box-shadow: 0 12px 30px rgba(60, 38, 22, 0.25);
+  }
+
+  section { padding: 44px 0; border-top: 1px solid var(--line); }
+  section h2 { font-size: 26px; margin-bottom: 18px; }
+  section h2 em { color: var(--accent); font-style: italic; }
+
+  .sheets { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+  .sheet {
+    background: #fffdf7;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 18px;
+  }
+  .sheet h3 { font-size: 17px; margin-bottom: 6px; color: var(--leather); }
+  .sheet p { font-size: 14.5px; color: #4d463c; }
+
+  .story { max-width: 640px; }
+  .story p { margin-bottom: 14px; font-size: 16.5px; }
+  .story .pull {
+    border-left: 3px solid var(--accent);
+    padding-left: 16px;
+    font-style: italic;
+    color: var(--leather);
+  }
+
+  .samples { display: flex; gap: 14px; flex-wrap: wrap; }
+  .samples a {
+    display: inline-block;
+    border: 1px solid var(--leather);
+    color: var(--leather);
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .samples a:hover { background: var(--leather); color: #fff; }
+
+  .buy { text-align: center; }
+  .buy p { max-width: 560px; margin: 0 auto 22px; font-size: 16px; }
+
+  footer {
+    background: var(--leather-dark);
+    color: #c9bfae;
+    padding: 26px 0;
+    font-size: 13.5px;
+    text-align: center;
+  }
+  footer a { color: #c9a06a; text-decoration: none; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <div class="brand">Homestead <span>Daily Ops</span></div>
+    <nav>
+      <a href="#sheets">What's inside</a>
+      <a href="#story">Why it exists</a>
+      <a href="#samples">Samples</a>
+      <a href="#buy">Get it</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero wrap">
+  <h1>The floor that holds while <em>everything else flies</em></h1>
+  <p class="lede">One spreadsheet, built on a working homestead, not from a template. Six sheets that keep the water on schedule, the feed counted, and the ledger honest. So the mornings stop leaking into chores.</p>
+  <a class="cta" href="https://navygerma.gumroad.com/l/homestead-daily-ops-pack">Get the pack on Gumroad</a>
+  <div class="price-note">$12 one-time. No subscription. You own the file.</div>
+  <img src="cover.jpg" alt="Blank leather journal cover of the Homestead Daily Ops Pack">
+</div>
+
+<section id="sheets">
+  <div class="wrap">
+    <h2>What's <em>inside</em></h2>
+    <div class="sheets">
+      <div class="sheet">
+        <h3>Daily Floor</h3>
+        <p>The day's non-negotiables, checked off in minutes. The minimum that gets done no matter what.</p>
+      </div>
+      <div class="sheet">
+        <h3>Watering</h3>
+        <p>Rotation schedule with per-plant cadence and notes. Nobody gets skipped twice.</p>
+      </div>
+      <div class="sheet">
+        <h3>Feed Log</h3>
+        <p>What each animal gets, when, and how much. Feed runs low before the bag runs out, not after.</p>
+      </div>
+      <div class="sheet">
+        <h3>Inventory</h3>
+        <p>Feed, supplies, what's running low. Know before it's empty.</p>
+      </div>
+      <div class="sheet">
+        <h3>Ledger</h3>
+        <p>Cost control, not guesswork. What you spend, what you owe, what you're paid in. Eggs are food, not revenue.</p>
+      </div>
+      <div class="sheet">
+        <h3>Readme</h3>
+        <p>How the sheets fit together, how to start, how to keep them honest. Formulas built in, validates clean.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="story">
+  <div class="wrap story">
+    <h2>Why it <em>exists</em></h2>
+    <p>It comes from a real operation. Animals fed on schedule, plants on rotation, the ledger written before coffee. The first thing this operation taught me: the plants had been skipped, because the reminder lived in someone else's check-in instead of on the ground.</p>
+    <p class="pull">A homestead ledger is cost control, not income. You eat the eggs. Surplus goes to the animals.</p>
+    <p>Then the second lesson: a county bill of 560 dollars became 37 hours of neighbor work, paid in hours instead of cash, logged line by line. The ground holds when the money is honest.</p>
+    <p>The record-keeping should not eat your mornings. That is what this pack is for.</p>
+  </div>
+</section>
+
+<section id="samples">
+  <div class="wrap">
+    <h2>See the <em>format</em> first</h2>
+    <p style="margin-bottom:16px; color:#4d463c;">Free sample sheets from the same build, so you know what you're getting before you buy.</p>
+    <div class="samples">
+      <a href="sample/daily_floor.csv">Daily Floor (sample CSV)</a>
+      <a href="sample/watering.csv">Watering (sample CSV)</a>
+    </div>
+  </div>
+</section>
+
+<section id="buy">
+  <div class="wrap buy">
+    <h2>Get the <em>pack</em></h2>
+    <p>One-time purchase, no subscription. Works in Excel and LibreOffice. The same sheets a working operation runs on, with the blanks left for you.</p>
+    <a class="cta" href="https://navygerma.gumroad.com/l/homestead-daily-ops-pack">Buy on Gumroad for $12</a>
+    <div class="price-note">Formulas built in. Currency and date formats set. Validates clean.</div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>Homestead Daily Ops Pack · <a href="https://github.com/whitedragonmerchant/homestead-care">Source repo</a> · <a href="https://x.com/JohnWhite8826">X / Twitter</a></p>
+    <p style="margin-top:6px;">Samples in this repo are free to use. The full pack is sold via Gumroad.</p>
+  </div>
+</footer>
+
+</body>
+</html>
