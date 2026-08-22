@@ -31,6 +31,8 @@ One-time purchase, no subscription. You own the file.
 
 The sample files in this repo are free to use. The full pack is sold via Gumroad under its purchase terms.
 
+© 2026 Sigil and Scribe, LLC. All rights reserved.
+
 ## Live site
 
 The marketing page for the pack lives at https://whitedragonmerchant.github.io/homestead-care/ (GitHub Pages, served from `main`).
