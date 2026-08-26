@@ -10,6 +10,7 @@ One spreadsheet, built from a working homestead, not a template. Seven sheets, d
 - **Feed Log** — what each animal gets, when, and how much
 - **Inventory** — feed, supplies, and what's running low before it's empty
 - **Ledger** — cost control, not guesswork. What you spend, what you owe, what you're paid in
+- **Readme** — how the sheets fit together, how to start, how to keep them honest
 
 One thousand four hundred ninety-four formulas across the pack, cross-sheet rollups, two charts, currency and date formats set, validates clean. Works in Excel, LibreOffice, and Google Sheets (File > Import).
 
